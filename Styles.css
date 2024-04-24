@@ -252,41 +252,44 @@ margin-right:auto;
 
 /*mobile-576*/
 @media only screen and (max-width: 576px) {
-body{
-
+  body {
+    /* Styles for body at this breakpoint */
+  }
 
   .element3,
   .element4 {
-    width: 100%;
+    width: 100%; /* Set width to 100% for element3 and element4 */
   }
 
   .img1-contingut,
   .img2-contingut,
   .img3-contingut,
   .img4-contingut {
-    width: 100%;
+    width: 100%; /* Set width to 100% for image containers */
   }
 
   .img1-contingut img,
   .img2-contingut img,
   .img3-contingut img,
   .img4-contingut img {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Set width to 100% for images inside containers */
+    height: auto; /* Ensure aspect ratio is maintained */
   }
-.Galeria h2{
-       margin:10px;
-       display:flex;
-       align-items:center;
-       justify-content:center;
-}
-.galeria_Imatges {
+
+  .Galeria h2 {
+    margin: 10px;
     display: flex;
-        flex-direction: column;
-        gap: 5px;
-        margin: 20px;
-        justify-content: flex-start;
-        align-items: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .galeria_Imatges {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 20px;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   .img1,
@@ -297,12 +300,10 @@ body{
   .img6,
   .img7,
   .img8 {
-    width: 20%;
+    width: 100%;
     box-sizing: border-box;
   }
 }
-}
-
 /*end media screen*/
 .nav{
      display:flex;
@@ -336,17 +337,24 @@ a:hover{
 
 
 }
-.coverLetter{
-       position:absolute;
-       top:20%;
-       left:0%;
-        background-color:black;
-        color:white;
-        padding-left:10px;
-        padding-right:10px;
-        font-size:20px;
-         opacity:0.6;
+.coverLetter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*background-color: rgba(0, 0, 0, 0.5);*/
+  color: white;
+  padding: 20px;
+}
 
+.coverLetter h2,
+.coverLetter p {
+  margin: 0;
 
 }/**Main*/
 .main{
