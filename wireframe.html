@@ -6,9 +6,11 @@
     <title>WireFrame</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 </head>
 
 <body>
+
 <nav class="nav">
     <a href="element1">Nosaltres</a>
     <a href="element2">Carta</a>
@@ -32,6 +34,7 @@
     <section class="section-main">
         <h2>Sobre nosaltres</h2>
         <div class="container-sobrenosaltres">
+
             <div class="img-sobrenosaltres">
                 <img src="glasses.jpg"alt="restaurant photo">
         </div>
@@ -52,6 +55,15 @@
                 </div>
         </div>
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    // Use jQuery's document.ready() function to ensure the DOM is fully loaded before running the script
+    $(document).ready(function(){
+        $('.section-main h2').click(function(){
+            $('.container-sobrenosaltres').slideToggle();
+        });
+    });
+</script>
     <section class="section-main">
         <h2 >carta</h2>
         <h3 class="menu">Menu</h3>
