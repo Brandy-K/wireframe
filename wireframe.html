@@ -6,16 +6,22 @@
     <title>WireFrame</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
 
-<nav class="nav">
+<nav id="nav" class="nav">
     <a href="element1">Nosaltres</a>
     <a href="element2">Carta</a>
     <a href="element3">Galeria</a>
 </nav>
+<script src="nav.js"></script>
+
+<!--new icon -->
+<i id="icon" class="material-icons icon">arrow_upward</i>
+<script src="scrollicon.js"></script>
+
 <header class="header">
     <picture>
         <source media="(min-width:768px)" srcset="restaurant2.jpg">
@@ -133,7 +139,22 @@
         </div>
     </section>
     </section>
+    <h3>Videos del Restaurant</h3>
+    <div class="video-container" onscroll="handleScroll()">
+        <video id="myVideo" muted >
+            <source src="video.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+        </video>
+        <div class="custom-controls">
+            <i id="playPauseBtn" class="material-icons" onclick="togglePlayPause()">play_circle_outline</i>
+            <i id="muteBtn" class="material-icons" onclick="toggleMute()">volume_off</i>
+        </div>
+    </div>
 </main>
+
+
+<script src="video.js"></script>
+
 <footer>
     <div class="contact_info">
         <i class="glyphicon glyphicon-envelope">exemple@exemple.com</i>

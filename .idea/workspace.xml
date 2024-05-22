@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="beadebe3-b7fc-4d2c-81cc-7832a4a50193" name="Changes" comment="INITIAL">
-      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon_io 2/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon_io 2/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon_io 2/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon_io 2/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon_io 2/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon_io 2/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon_io 2/site.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wireframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/wireframe.html" afterDir="false" />
-    </list>
+    <list default="true" id="beadebe3-b7fc-4d2c-81cc-7832a4a50193" name="Changes" comment="INITIAL2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="optimitzacio_imatges" />
+        <entry key="$PROJECT_DIR$" value="Animacions" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712947858511</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="INITIAL2">
+      <created>1716402974680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716402974680</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,7 +93,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Animacions" />
+                        <option value="videos" />
                       </list>
                     </value>
                   </entry>
@@ -114,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="INITIAL" />
-    <option name="LAST_COMMIT_MESSAGE" value="INITIAL" />
+    <MESSAGE value="INITIAL2" />
+    <option name="LAST_COMMIT_MESSAGE" value="INITIAL2" />
   </component>
 </project>
